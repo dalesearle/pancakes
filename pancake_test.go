@@ -1,8 +1,9 @@
 package main
 
 import (
-	"playground/kata/pancake2/waiters"
 	"testing"
+
+	"github.com/dalesearle/pancakes/waiters"
 )
 
 var testData = map[string]struct {

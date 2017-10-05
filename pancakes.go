@@ -1,11 +1,12 @@
 package main
 
 import (
-	"os"
 	"bufio"
 	"fmt"
+	"os"
 	"strconv"
-	"playground/kata/pancake2/waiters"
+
+	"github.com/dalesearle/pancakes/waiters"
 )
 
 func main() {
@@ -28,6 +29,6 @@ func main() {
 		scanner.Scan()
 		i++
 		flips := waiter.ArrangeStack(scanner.Text())
-		fmt.Println("Case #" + strconv.Itoa(i) +": " + strconv.Itoa(flips))
+		fmt.Println("Case #" + strconv.Itoa(i) + ": " + strconv.Itoa(flips))
 	}
 }
